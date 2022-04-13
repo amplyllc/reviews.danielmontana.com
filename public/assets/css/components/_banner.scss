@@ -1,0 +1,9 @@
+#banner {
+    background-color: map.get($theme-colors, 'background');
+    
+    img {
+        @include media-max-md {
+            margin-top: 3rem;
+        }
+    }
+}
