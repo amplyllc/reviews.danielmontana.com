@@ -1,15 +1,24 @@
 ---
-title: Requiem for a Dream
-author: Daniel Montana
-authorImg: /assets/img/logosmall.png
-date: 2022-04-05
+genre:
+  - Crime
+  - Drama
 layout: article.njk
-tags: ["post", "2000", "10"]
-year: 2000
-rating: 10
-image: /assets/img/requiemforadream.png
+author: Daniel Montana
+director: Darren Aronofsky
+writer:
+  - Hubert Selby Jr.
+date: 2022-04-05
 image-alt: Requiem for a Dream movie poster
-description: The hopes and dreams of four ambitious people are shattered when their drug addictions begin spiraling out of control. A look into addiction and how it overcomes the mind and body.
+authorImg: /assets/img/logosmall.png
+title: Requiem for a Dream
+year: 2000
+rating: "5"
+description: The hopes and dreams of four ambitious people are shattered when
+  their drug addictions begin spiraling out of control. A look into addiction
+  and how it overcomes the mind and body.
+tags:
+  - post
+image: /assets/img/requiemforadream.png
 ---
 
 ### Lorem ipsum.

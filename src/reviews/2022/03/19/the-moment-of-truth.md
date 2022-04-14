@@ -1,17 +1,22 @@
 ---
-title: The Moment of Truth
-author: Daniel Montana
-authorImg: /assets/img/logosmall.png
-date: 2022-03-19
-layout: article.njk
-tags: ["post", "2022", "8", "Drama"]
-year: 2022
-rating: 8
 genre: Drama
-image: /assets/img/themomentoftruth.png
+layout: article.njk
+author: Daniel Montana
+director: Francesco Rosi
+writer:
+  - Francesco Rosi
+date: 2022-03-19
 image-alt: The Moment of Truth movie poster
-description: Miguel, a poor young man living in Franco’s Spain becomes a bull fighter to escape starvation.
-
+authorImg: /assets/img/logosmall.png
+title: The Moment of Truth
+year: 2022
+rating: "4"
+description: Miguel, a poor young man living in Franco’s Spain becomes a bull
+  fighter to escape starvation.
+tags:
+  - post
+  - Drama
+image: /assets/img/themomentoftruth.png
 ---
 
 ### Why was I so into this?
