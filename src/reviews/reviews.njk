@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+
+<!-- all -->
+<section id="all" class="d-flex flex-column j-c-c a-i-c p-4">
+
+    {%- for post in collections.post | reverse -%}
+      {% include 'article-snippet.njk' %}
+    {%- endfor -%}
+
+</section><!-- /all -->
