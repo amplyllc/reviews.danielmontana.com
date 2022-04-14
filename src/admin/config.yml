@@ -13,6 +13,7 @@ collections:
     fields:
       - { label: "Movie Title", name: "title", widget: "string" }
       - { label: "Movie Year", name: "year", widget: "number"}
+      - { label: "Genre(s) (Separated by comma)", name: "genre", widget: "list" }
       - { label: "Review Author", name: "author", widget: "string" }
       - { label: "Rating", name: "rating", widget: "select", options: ["1","1.5","2","2.5","3","3.5","4","4.5","5"] }
       - { label: "Description/Synopsis", name: "description", widget: "string" }
