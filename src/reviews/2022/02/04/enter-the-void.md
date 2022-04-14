@@ -1,15 +1,23 @@
 ---
-title: Enter the Void
-author: Daniel Montana
-authorImg: /assets/img/logosmall.png
-date: 2022-02-04
+genre:
+  - Drama
+  - Horror
+  - Thriller
 layout: article.njk
-tags: ["post", "2009", "9"]
-year: 2009
-rating: 9
-image: /assets/img/enterthevoid.png
-image-alt: Enter the Void movie poster
-description: An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.
+author: Daniel Montana
+director: Michael Haneke
+date: 2022-02-04
+image-alt: Funny Games movie poster
+authorImg: /assets/img/logosmall.png
+title: Funny Games
+year: 1997
+rating: "4"
+description: Two psychotic young men take a mother, father, and son hostage in
+  their vacation cabin and force them to play sadistic "games" with one another
+  for their own amusement.
+tags:
+  - post
+image: funnygames.png
 ---
 
 ### A good light hearted family movie.
