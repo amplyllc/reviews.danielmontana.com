@@ -1,0 +1,40 @@
+---
+title: Daniel Montana
+layout: 'base.njk'
+---
+
+<!-- landing -->
+<section id="landing">
+    <div class="container d-flex flex-column default text-center md-text-start">
+        <div class="main d-flex flex-column-reverse md-flex-row md-j-c-s px-3">
+            <div class="animate fadeIn long lntext d-flex flex-column j-c-c a-i-c md-a-i-s">
+                <h1 class="text-primary">Movie Reviews</h1>
+                <p class="w-90 text-white py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ratione provident sit veniam officiis optio odit vel cupiditate repellendus culpa minima nisi.</p>
+                <a class="button double underline secondary" href="#latest">View Latest</a>
+            </div>
+            <div class="lnimg d-flex default">
+                {%- for post in collections.post | reverse | limit(1) -%}
+                    {% include 'article-card.njk' %}
+                {%- endfor -%}
+            </div>
+        </div>
+        <a href="#latest" class="bounce-icon animate fadeIn long d-flex j-c-c a-i-e">
+            <svg id="down" class="animate bounce" width="30" height="30" viewBox="0 0 58 58" fill="none">
+                <path d="M9.66602 21.75L28.9993 41.0833L48.3327 21.75" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </div>
+</section><!-- /landing -->
+
+<!-- latest -->
+<section id="latest" class="px-3 mb-3">
+
+    <h3>Latest Reviews</h3>
+
+    <div class="d-flex flex-column lg-flex-row j-c-spc">
+        {%- for post in collections.post | reverse | limit(5) -%}
+            {% include 'article-card.njk' %}
+        {%- endfor -%}
+    </div>
+
+</section><!-- /latest -->

@@ -1,0 +1,15 @@
+footer {
+  a {
+    color: white;
+
+    &:hover {
+        color: map.get($theme-colors, 'accent');
+    }
+  }
+  .footerNav {
+    @include media-md {
+      margin-right: 2rem;
+      margin-left: 2rem;
+    }
+  }
+}
