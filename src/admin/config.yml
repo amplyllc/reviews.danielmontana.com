@@ -6,9 +6,10 @@ public_folder: "/assets/img"
 collections:
   - name: "reviews"
     label: "Reviews"
-    folder: "src/reviews/*/*/*"
+    folder: "src/reviews"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
+    path: "{{year}}/{{month}}/{{day}}/{{slug}}"
     fields:
       - { label: "Movie Title", name: "title", widget: "string" }
       - { label: "Movie Year", name: "year", widget: "number"}
