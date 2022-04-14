@@ -16,9 +16,9 @@ collections:
       - { label: "Rating", name: "rating", widget: "select", options: ["1","1.5","2","2.5","3","3.5","4","4.5","5"] }
       - { label: "Description/Synopsis", name: "description", widget: "string" }
       - { label: "Director", name: "director", widget: "string" }
-      - { label: "Writer(s)", name: "writer", widget: "list" }
+      - { label: "Writer(s) (Separated by comma)", name: "writer", widget: "list" }
       - { label: "Date", name: "date", widget: "datetime"}
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image caption", name: "imageAlt", widget: "string" }
+      - { label: "Image caption", name: "imageAlt", widget: "string", default: "NAME movie poster"}
       - { label: "Body", name: "body", widget: "markdown" }
