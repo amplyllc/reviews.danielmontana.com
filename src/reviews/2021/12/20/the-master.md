@@ -1,15 +1,24 @@
 ---
-title: The Master
-author: Daniel Montana
-authorImg: /assets/img/logosmall.png
-date: 2021-12-20
+genre:
+  - Drama
 layout: article.njk
-tags: ["post", "2012", "10"]
-year: 2012
-rating: 10
-image: /assets/img/themaster.png
+author: Daniel Montana
+director: Paul Thomas Anderson
+writer:
+  - Paul Thomas Anderson
+date: 2021-12-20
 image-alt: The Master movie poster
-description: Freddie, a volatile, heavy-drinking veteran who suffers from post-traumatic stress disorder, finds some semblance of a family when he stumbles onto the ship of Lancaster Dodd, the charismatic leader of a new “religion” he forms after World War II.
+authorImg: /assets/img/logosmall.png
+title: The Master
+year: 2012
+rating: "5"
+description: Freddie, a volatile, heavy-drinking veteran who suffers from
+  post-traumatic stress disorder, finds some semblance of a family when he
+  stumbles onto the ship of Lancaster Dodd, the charismatic leader of a new
+  “religion” he forms after World War II.
+tags:
+  - post
+image: /assets/img/themaster.png
 ---
 
 ### I just wanted Joaquin and Philip to kiss
